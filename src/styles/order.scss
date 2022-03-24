@@ -1,0 +1,104 @@
+.order{
+    min-height: 40vh;
+
+    >button{
+        position:fixed;
+        width:40px;
+        height:40px;
+        border-radius: 50%;
+        border:none;
+        background-color:indianred;
+        top:0;
+        right:0;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    >.line{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin:1rem;
+        >label{
+            font-size: 1rem;
+            color:var(--sub_black);
+            font-weight: bold;
+
+        }
+
+        >p{
+            font-size:0.8rem;
+            text-align: center;
+        }
+
+        >div{
+            margin-top: 1rem;
+            display:flex;
+            align-items: center;
+            width:200px;
+            border-bottom: 1px solid var(--sub_black);
+            >input{
+                padding:0.6rem;
+                flex:1;
+                border:none;
+                outline:none;
+                font-size: 0.8rem;
+            }
+        }
+
+        >button{
+            padding:0.6rem;
+            width:100px;
+            background-color:var(--sub_black);
+            color:white;
+            border:none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    }
+
+    >.alerte{
+        font-size:0.8rem;
+        text-align: center;
+        color:indianred;
+        font-weight: bold;
+    }
+
+    >.sent{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height:35vh;
+
+        >h2{
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        >p{
+            text-align: center;
+            font-size: 0.8rem;
+            margin:1rem;
+        }
+
+        >.moyens{
+            
+            display:flex;
+            align-items: center;
+            >button{
+                width:100px;
+                margin:0 0.5rem;
+                display:flex;
+                flex-direction: column;
+                align-items: center;
+                border:none;
+                background-color:transparent;
+                font-size: 0.8rem;
+                font-weight: bold;
+                color:var(--sub_black);
+            }
+        }
+    }
+}

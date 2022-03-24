@@ -1,0 +1,31 @@
+.image{
+    height:60vh;
+    z-index: 999;
+
+   .react-horizontal-scrolling-menu--item {
+       position:relative;
+   }
+    >img{
+        object-fit: cover;
+        position:static;
+        top:0;
+        left:0;
+        width:100vw;
+        height:calc(60vh - 40px);
+    }
+    >button{
+        width:40px;
+        height:40px;
+        border-radius: 50%;
+        background-color:indianred;
+        border:none;
+        color:white;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        position:fixed;
+        top:0;
+        right:0;
+        z-index: 9999;
+    }
+}

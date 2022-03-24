@@ -1,0 +1,11 @@
+.home{
+    height:100vh;
+    background-color: var(--bg_color);
+
+    >.content{
+        position:fixed;
+        top:120px;
+        width:100%;
+        height:calc(100vh - 100px - 50px);
+    }
+}

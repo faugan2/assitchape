@@ -1,0 +1,21 @@
+.floating_buttons{
+    position:fixed;
+    bottom:100px;
+    right:1rem;
+    display:flex;
+    flex-direction: column;
+    z-index: 200;
+    >button{
+     width:40px;
+     height:40px;
+     border-radius: 50%;
+     border:none;
+     margin-bottom:1rem;  
+     display:flex;
+     align-items: center;
+     justify-content:center;
+     color:white;
+     background-color:var(--sub_black); 
+     z-index: 9999;
+    }
+}
